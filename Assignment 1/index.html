@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Webpage</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            padding: 20px;
+            flex: 1;
+        }
+        button {
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        ul, ol {
+            text-align: left;
+            margin: auto;
+            display: inline-block;
+            font-size: 20px;
+        }
+        footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Basic Webpage</h1>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <h2 style="font-size: 30px;">Introduction</h2>
+        <p style="font-size: 25px;">This is a simple webpage demonstrating basic HTML elements.</p>
+        
+        <button onclick="alert('Button Clicked!')">Click Me</button>
+        
+        <h2>Lists</h2>
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Orange</li>
+        </ol>
+        
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Haseeb</li>
+            <li>Imtiyaz</li>
+            <li>Bhat</li>
+        </ul>
+    </div>
+    
+    <footer>
+        <p>&copy; Haseeb Imtiyaz MITE</p>
+    </footer>
+</body>
+</html>
